@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Arduino IDE
+Name[es]=Arduino IDE
+Name[ca_ES@valencia]=Arduino IDE
+Name[ca_ES.UT-8@valencia]=Arduino IDE
+Comment=Arduino IDE - Latest release
+Comment[es]=Un entorno integrado de desarrollo para Arduino
+Comment[ca_ES@valencia]=Un entorn integrat de desenvolupament per a Arduino
+Comment[ca_ES.UTF-8@valencia]=Un entorn integrat de desenvolupament per a Arduino
+Exec=/opt/arduino/arduino
+TryExec=/opt/arduino/arduino
+Icon=arduino-arduinoide
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development
+MimeType=text/x-arduino
+
