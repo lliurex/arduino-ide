@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+#include /usr/share/cdbs/1/rules/debhelper.mk
+%:
+	dh $@ 
+
+override_dh_install: custom-files
+
+	dh_install
+
+override_dh_shlibdeps: 
+	
+	echo "Nothing to do here"
+	
+override_dh_strip:
+
+	echo "Nothing do to here"
+	
+override_dh_strip_nondeterminism:
+
+	echo "Nothing do to here"
+
+
+# Build architecture-dependent files here.
+custom-files:
+
+ifeq ($(DEB_BUILD_ARCH), i386)
+	cp -r arduino-ide-i386/* ./arduino-ide.install/opt/arduino/
+endif
+
+ifeq ($(DEB_BUILD_ARCH), amd64)
+	cp -r arduino-ide-amd64/* ./arduino-ide.install/opt/arduino/
+endif
+
