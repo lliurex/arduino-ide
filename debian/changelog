@@ -1,3 +1,10 @@
+arduino-ide (1.8.13+lliurex1) focal; urgency=medium
+
+  * Updated to 1.8.13
+  * Initial release to focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 16 Sep 2020 12:48:20 +0200
+
 arduino-ide (1.8.3+lliurex17) bionic; urgency=medium
 
   * Fix desktop file
