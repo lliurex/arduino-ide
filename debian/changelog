@@ -1,3 +1,9 @@
+arduino-ide (1.8.13+lliurex2) focal; urgency=medium
+
+  * Dummy upgrade
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 18 Sep 2020 11:03:01 +0200
+
 arduino-ide (1.8.13+lliurex1) focal; urgency=medium
 
   * Updated to 1.8.13
