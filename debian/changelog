@@ -1,3 +1,9 @@
+arduino-ide (1.8.13+lliurex12) jammy; urgency=medium
+
+  * Initial release to Jammy
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Sep 2023 09:20:38 +0200
+
 arduino-ide (1.8.13+lliurex2) focal; urgency=medium
 
   * Dummy upgrade
